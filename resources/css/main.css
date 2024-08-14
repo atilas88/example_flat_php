@@ -1,0 +1,103 @@
+.error
+{
+    color: red;
+    font-size: x-small;
+}
+.form_class
+{
+    max-width: 50rem;
+    margin: 0 auto;
+   
+}
+.form_class fieldset
+{
+    margin-bottom: 1rem;
+}
+.form_class legend
+{
+    background-color: dimgray;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.field_class
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+.flex_div
+{
+    display: flex;
+}
+.field_class label
+{
+    flex-basis: 6.5rem;
+}
+
+.field_class input
+{
+    flex: 1;
+}
+.btn
+{
+    color: white;
+    background-color: rgb(70, 122, 138);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 18px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.btn_area
+{
+    display: flex;
+    justify-content: space-between;
+}
+.table_container
+{
+    margin: 0 auto; 
+    max-width: 1200px;
+}
+.empty_msg
+{
+    display: flex; 
+    justify-content: center;
+}
+.table_overflow_x
+{
+    overflow-x:scroll;
+}
+.table_class
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+ th 
+ {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: dimgray;
+    color: white;
+}
+td, th 
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.center_div_error_layout
+{
+    display: flex; 
+    justify-content: center;
+}

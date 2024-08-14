@@ -1,0 +1,14 @@
+{
+    "name": "orelvys/src",
+    "authors": [
+        {
+            "name": "Orelvys"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "App\\": "app/"
+        }
+    }
+}
